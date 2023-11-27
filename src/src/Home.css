@@ -1,0 +1,36 @@
+/* Your existing CSS for .home */
+.home {
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 5000px;
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+/* Additional CSS for .HomeApp */
+.HomeApp {
+  background-image: url('https://news.northeastern.edu/wp-content/uploads/2020/03/krentzman-zoom.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Additional styles for .home__container and .home__row */
+.home__container {
+  position: relative;
+  z-index: 1;
+}
+
+.home__row {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 2;
+}
+
+/* Add other necessary styles for your Product component */
