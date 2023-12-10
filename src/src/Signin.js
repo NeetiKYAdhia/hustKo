@@ -4,11 +4,11 @@ import "./signin.css";
 import { useNavigate } from "react-router-dom";
 import { SignpostOutlined } from "@mui/icons-material";
 
-const Signin = (props) => {
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
-    const [emailError, setEmailError] = useState("")
-    const [passwordError, setPasswordError] = useState("")
+const Login = (props) => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [emailError, setEmailError] = useState("");
+    const [passwordError, setPasswordError] = useState("");
 
     const navigate = useNavigate();
 
@@ -64,4 +64,4 @@ const Signin = (props) => {
     );
 };
 
-export default Signin;
+export default Login;
